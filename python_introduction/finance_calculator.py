@@ -1,6 +1,6 @@
 # Define variables, hours and seconds
-x = input("Enter your monthly income")
-y = input("Enter your total monthly expenses")
+x = input("Enter your monthly income:")
+y = input("Enter your total monthly expenses:")
 monthly_income =float(x)
 monthly_expenses = float(y)
 monthly_savings = float(monthly_income - monthly_expenses)
