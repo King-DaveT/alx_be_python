@@ -1,11 +1,10 @@
-
-# Define variables, x,y, m and ym.
+# Define variables, hours and seconds
 x = input("Enter your monthly income")
 y = input("Enter your total monthly expenses")
-a =int(x)
-b= int(y)
-m = a - b
-ym = (m *12) + (m*12*0.05)
-#Calculating savings and interest
-print( "Your monthly savings are", m)
-print("Projected savings after one year""," "with interest" "," "is", ym)
+monthly_income =int(x)
+monthly_expenses = int(y)
+monthly_savings = int(monthly_income - monthly_expenses)
+projected_savings = (monthly_savings * 12) + (monthly_savings * 12 * 0.05)
+#Converting hours to seconds
+print( "Your monthly savings are", monthly_savings)
+print("Projected savings after one year""," "with interest" "," "is", projected_savings)
