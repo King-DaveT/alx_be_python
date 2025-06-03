@@ -1,6 +1,6 @@
 # Define the variables and assign values
-number1 = int(10)
-number2 = int(5)
+number1 = 10
+number2 = 5
 
 # calculating the sum
 sum = number1 + number2
