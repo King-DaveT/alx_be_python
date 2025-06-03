@@ -1,11 +1,17 @@
 # Define the variables and assign values
-number1 = 10
-number2 = 5
+number1 = int(10)
+number2 = int(5)
 
-# calculating the sum, difference and product
+# calculating the sum
 sum = number1 + number2
-difference = number1 - number2
-product = number1 * number2
 
 #Displaying the results
-print("sum": "
+print("The sum of", number1, "and", number2, "is", sum)
+
+# calculating the difference
+difference = number1 - number2
+print("The difference of", number1, "and", number2, "is", difference)
+
+#calculating the product
+product = number1 * number2
+print("The product of", number1, "and", number2, "is", product)
