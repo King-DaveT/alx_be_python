@@ -2,7 +2,7 @@
 principal = 1000
 rate = 0.05
 time = 3
-interest = (principal * rate * time)
+interest = principal * rate * time
 
 # Calculating the interest
-print(f"The simple interest is: {interest})
+print(f"The simple interest is: {interest}")
