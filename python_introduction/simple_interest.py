@@ -4,5 +4,5 @@ rate = 0.05
 time = 3
 
 # Calculating the interest
-Interest = principal*rate*time
-print("The product of", principal, "and", rate, "and", time, "is", interest)
+Interest = principal * rate * time
+print("The product of", principal, rate, "and", time, "is", interest)
